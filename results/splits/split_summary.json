@@ -1,0 +1,60 @@
+{
+  "split_method": "slide_groups_image_balanced",
+  "random_seed": 42,
+  "target_ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "total_samples": 4049,
+  "total_slide_groups": 966,
+  "split_counts": {
+    "train": 2851,
+    "val": 599,
+    "test": 599
+  },
+  "split_percentages": {
+    "train": 70.41244751790566,
+    "val": 14.793776241047173,
+    "test": 14.793776241047173
+  },
+  "slides_per_split": {
+    "train": 681,
+    "val": 138,
+    "test": 147
+  },
+  "slide_group_percentages": {
+    "train": 70.4968944099379,
+    "val": 14.285714285714286,
+    "test": 15.217391304347826
+  },
+  "split_class_counts": {
+    "train": {
+      "Dyskeratotic": 585,
+      "Koilocytotic": 576,
+      "Metaplastic": 555,
+      "Parabasal": 553,
+      "Superficial-Intermediate": 582
+    },
+    "val": {
+      "Dyskeratotic": 114,
+      "Koilocytotic": 124,
+      "Metaplastic": 119,
+      "Parabasal": 115,
+      "Superficial-Intermediate": 127
+    },
+    "test": {
+      "Dyskeratotic": 114,
+      "Koilocytotic": 125,
+      "Metaplastic": 119,
+      "Parabasal": 119,
+      "Superficial-Intermediate": 122
+    }
+  },
+  "leakage_check": {
+    "slide_groups_total": 966,
+    "leaked_groups": 0,
+    "leakage_ok": true,
+    "leaked_examples": []
+  }
+}

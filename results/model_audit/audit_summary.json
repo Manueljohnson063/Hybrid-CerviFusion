@@ -1,0 +1,53 @@
+{
+  "overall": {
+    "samples": 25,
+    "accuracy": 0.96,
+    "mean_prediction_confidence": 0.9966712737083435,
+    "mean_cam_confidence_drop": 0.04253368020057678,
+    "mean_random_confidence_drop": 0.005671396255493164,
+    "mean_efficientnet_ablation_drop": 0.29932846773881466,
+    "mean_vit_ablation_drop": 0.0427496075630188
+  },
+  "per_class": {
+    "Dyskeratotic": {
+      "samples": 5,
+      "accuracy": 1.0,
+      "mean_prediction_confidence": 0.9994268178939819,
+      "mean_cam_confidence_drop": 0.00018534660339355468,
+      "mean_random_confidence_drop": 9.003877639770507e-05
+    },
+    "Koilocytotic": {
+      "samples": 5,
+      "accuracy": 0.8,
+      "mean_prediction_confidence": 0.9897964239120484,
+      "mean_cam_confidence_drop": 0.08916697502136231,
+      "mean_random_confidence_drop": 0.02753094434738159
+    },
+    "Metaplastic": {
+      "samples": 5,
+      "accuracy": 1.0,
+      "mean_prediction_confidence": 0.9950677514076233,
+      "mean_cam_confidence_drop": 0.0036829829216003416,
+      "mean_random_confidence_drop": 0.0004726290702819824
+    },
+    "Parabasal": {
+      "samples": 5,
+      "accuracy": 1.0,
+      "mean_prediction_confidence": 0.9992525458335877,
+      "mean_cam_confidence_drop": 0.007600116729736328,
+      "mean_random_confidence_drop": 0.00021495819091796876
+    },
+    "Superficial-Intermediate": {
+      "samples": 5,
+      "accuracy": 1.0,
+      "mean_prediction_confidence": 0.9998128294944764,
+      "mean_cam_confidence_drop": 0.11203297972679138,
+      "mean_random_confidence_drop": 4.841089248657227e-05
+    }
+  },
+  "checkpoint": "D:\\ExcellencProject\\2026\\CervicalFusion\\checkpoints\\cervifusion\\best_model.pt",
+  "test_csv": "D:\\ExcellencProject\\2026\\CervicalFusion\\results\\splits\\test.csv",
+  "samples_per_class_requested": 5,
+  "cam_threshold": 0.7,
+  "seed": 42
+}

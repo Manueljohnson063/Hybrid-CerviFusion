@@ -1,0 +1,27 @@
+# CerviFusion training over Cellpose-guided, target-cell crops.
+# Generate these inputs first with:
+# python scripts/07_generate_nucleus_crops.py
+
+efficientnet_name: efficientnet_b0
+vit_name: vit_small_patch16_224
+pretrained: false
+
+efficientnet_pretrained_path: checkpoints/pretrained/efficientnet_b0.pth
+vit_pretrained_path: checkpoints/pretrained/vit_small_patch16_224.pth
+
+fusion_dim: 512
+fusion_heads: 4
+dropout: 0.3
+
+image_size: 224
+batch_size: 4
+num_workers: 0
+
+epochs: 20
+learning_rate: 0.0001
+weight_decay: 0.0001
+cpu_threads: 1
+
+splits_dir: results/nucleus_crops/splits
+checkpoint_dir: checkpoints/cervifusion_nucleus_crops
+metrics_dir: results/metrics/cervifusion_nucleus_crops

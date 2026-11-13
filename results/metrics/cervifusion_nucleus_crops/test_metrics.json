@@ -1,0 +1,98 @@
+{
+  "accuracy": 0.8347245409015025,
+  "precision_macro": 0.8372139036063821,
+  "recall_macro": 0.8370881436957873,
+  "f1_macro": 0.8316015385899108,
+  "precision_weighted": 0.8375223188834269,
+  "recall_weighted": 0.8347245409015025,
+  "f1_weighted": 0.8303833109042077,
+  "confusion_matrix": [
+    [
+      103,
+      5,
+      2,
+      2,
+      2
+    ],
+    [
+      16,
+      77,
+      18,
+      3,
+      11
+    ],
+    [
+      3,
+      3,
+      98,
+      9,
+      6
+    ],
+    [
+      1,
+      1,
+      2,
+      110,
+      5
+    ],
+    [
+      0,
+      2,
+      5,
+      3,
+      112
+    ]
+  ],
+  "classification_report": {
+    "Dyskeratotic": {
+      "precision": 0.8373983739837398,
+      "recall": 0.9035087719298246,
+      "f1-score": 0.869198312236287,
+      "support": 114.0
+    },
+    "Koilocytic": {
+      "precision": 0.875,
+      "recall": 0.616,
+      "f1-score": 0.7230046948356808,
+      "support": 125.0
+    },
+    "Metaplastic": {
+      "precision": 0.784,
+      "recall": 0.8235294117647058,
+      "f1-score": 0.8032786885245902,
+      "support": 119.0
+    },
+    "Parabasal": {
+      "precision": 0.8661417322834646,
+      "recall": 0.9243697478991597,
+      "f1-score": 0.8943089430894309,
+      "support": 119.0
+    },
+    "Superficial-Intermediate": {
+      "precision": 0.8235294117647058,
+      "recall": 0.9180327868852459,
+      "f1-score": 0.8682170542635659,
+      "support": 122.0
+    },
+    "accuracy": 0.8347245409015025,
+    "macro avg": {
+      "precision": 0.8372139036063821,
+      "recall": 0.8370881436957873,
+      "f1-score": 0.8316015385899108,
+      "support": 599.0
+    },
+    "weighted avg": {
+      "precision": 0.8375223188834269,
+      "recall": 0.8347245409015025,
+      "f1-score": 0.8303833109042077,
+      "support": 599.0
+    }
+  },
+  "loss": 0.5191268436595151,
+  "split": "test",
+  "best_epoch": 19,
+  "best_val_acc": 0.8848080133555927,
+  "model": "CerviFusion",
+  "efficientnet_name": "efficientnet_b0",
+  "vit_name": "vit_small_patch16_224"
+}
