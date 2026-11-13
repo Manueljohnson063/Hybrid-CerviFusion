@@ -220,7 +220,6 @@ The most difficult classes are Koilocytic and Metaplastic. Future work should fo
 Current work uses standard pretrained timm backbones. Improvement ideas include:
 
 - larger ImageNet backbones such as EfficientNet-B4 or B7
-- ConvNeXt-based backbones
 - ViT variants with stronger pretrained weights
 - domain-specific self-supervised pretraining
 
