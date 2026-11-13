@@ -47,13 +47,13 @@ CerviFusion uses a hybrid dual-branch design:
 
 This design is intended to combine the strengths of convolutional feature extraction and transformer-based global understanding.
 
-![CerviFusion model architecture](image.png)
+![CerviFusion hybrid architecture](misc/architecture.png)
 
 ## Data and preprocessing
 
 The project works on cropped cervical cell images organized by class under the dataset directory.
 
-![Cervical cell dataset sample](image-1.png)
+![Cervical cell dataset sample](misc/dataset_sample.png)
 
 ### Main data characteristics
 
@@ -117,13 +117,13 @@ The code also supports project-local pretrained weights under:
 - checkpoints/pretrained/efficientnet_b0.pth
 - checkpoints/pretrained/vit_small_patch16_224.pth
 
-
+![Training loss and validation accuracy curves](misc/Loss-Accuracy_curve.png)
 
 ## Evaluation and metrics
 
 The project saves metrics under the results/metrics/cervifusion folder.
 
-![Cervical cell classification metrics plot](image-3.png)
+![Model metric comparison plot](misc/metric_plot.png)
 
 ### Validation performance
 
@@ -189,7 +189,7 @@ This is especially valuable for:
 - error analysis
 - clinical review and validation
 
-![Grad-CAM explainability output](image-4.png)
+![Grad-CAM explainability heatmap](misc/explainability.png)
 
 ## Project status
 
